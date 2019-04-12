@@ -13,7 +13,7 @@ To build app in working directory use the following command:
 
 ```bash
 docker run --rm -v `pwd`:/app -w /app \
-  cvagner/sencha-cmd:latest \
+  cvagner/sencha-cmd:3.0.2 \
   app build
 ```
 
